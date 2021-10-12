@@ -4,9 +4,9 @@ import Header from './components/Header'
 import LandSection from './components/LandSection.js';
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <Header />
-      <LandSection/>
+      <LandSection name="home"/>
     </div>
   );
 }
