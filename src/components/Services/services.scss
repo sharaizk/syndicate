@@ -1,0 +1,12 @@
+.serviceicon{
+    font-size: 60px;
+    color: #424242;
+    cursor: pointer;
+    transition: 0.2s color ease;
+    transition: 0.75s transform ease-in-out;
+    -webkit-tap-highlight-color: transparent;
+    &:hover{
+        color: #03989e;
+        transform: scale(1.5) rotate(360deg);
+    }
+}

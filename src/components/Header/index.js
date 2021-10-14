@@ -10,10 +10,10 @@ const Header = () => {
     }
 
     return (
-        <header>
+        <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
-        </header>
+        </>
     )
 }
 
