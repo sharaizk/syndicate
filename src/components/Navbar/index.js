@@ -36,17 +36,17 @@ const Navbar = ({toggle}) => {
           <NavMenu >
             <NavItem scrollNav={scrollNav}>
               <NavLinks to="home"
-                spy={true} smooth={true} offset={0}  duration={500}
+                spy={true} smooth={true} duration={500}
               >Home</NavLinks>
             </NavItem>
             <NavItem scrollNav={scrollNav}>
               <NavLinks to="services"
              
-              spy={true} smooth={'easeInOutCubic'} offset={-80} duration={500}>Services</NavLinks>
+              spy={true} smooth={'easeInOutCubic'} offset={ -60} duration={500}>Services</NavLinks>
             </NavItem>
             <NavItem scrollNav={scrollNav}>
               <NavLinks to="portfolio"
-              spy={true} smooth={'easeInOutCubic'} offset={20} duration={500}>
+              spy={true} smooth={'easeInOutCubic'} offset={-120} duration={500}>
               Portfolio</NavLinks>
             </NavItem>
             <NavItem scrollNav={scrollNav}>

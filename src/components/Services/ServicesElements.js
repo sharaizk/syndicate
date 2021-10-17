@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
-  height: 91.5vh;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
   flex-direction: column;
-  margin-top: 50px;
+  margin-bottom: 140px;
 `;
 
 export const Servicesdivider = styled.div`
@@ -37,7 +37,7 @@ export const OurServices = styled.h2`
 `;
 
 export const CardContainer = styled.div`
-
+  margin-top: 20px;
   display: grid;
   display: grid;
   height: 100%;
@@ -66,15 +66,41 @@ export const CardComponent = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.2s all ease;
+  :hover{
+        border-color: #03989e;
+        box-shadow: 1px 6px 21px -12px rgba(0,0,0,0.96);
+        -webkit-box-shadow: 1px 6px 21px -12px rgba(0,0,0,0.96);
+        -moz-box-shadow: 1px 6px 21px -12px rgba(0,0,0,0.96);
+  }
   @media screen and (max-width:500px){
     width: 80vw;
   }
+
 `;
+
+export const CardTitleIconContainer=styled.div`
+  flex:0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`
 
 export const CardTitle=styled.h3`
   font-family: 'Gilroy-Regular',sans-serif;
   font-size: 30px;
+  margin-bottom: 10px;
+  color: #424242;
+`
 
+export const CardDescription=styled.p`
+flex: 0.5;
+  font-family: 'Gilroy-Regular',sans-serif;
+  font-size: 16px;
+  text-align: justify;
   color: #424242;
 `
 

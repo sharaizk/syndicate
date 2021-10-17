@@ -1,17 +1,15 @@
 import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
 export const LandSectionContainer = styled.div`
-  height:  86.3013698630137vh;
-  margin-bottom: 130px;
+  height:  84.29926238145416vh;
+  margin-bottom: 140px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
   flex-direction: column;
-  @media screen and(max-width:800px){
-    height: 700px;
-  }
+
 `;
 
 export const LandSectionImage = styled.img`

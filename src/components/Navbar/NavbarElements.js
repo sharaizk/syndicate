@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {Link as LinkS} from 'react-scroll'
 export const Nav = styled.nav`
     background: #fff;
-    height: ${({scrollNav})=>(!scrollNav ? '80px' : '70px')};
+    height: ${({scrollNav})=>(!scrollNav ? '80px' : '75px')};
     display:flex;
     justify-content:center;
     align-items:center;
