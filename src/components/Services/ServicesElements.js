@@ -94,6 +94,7 @@ export const CardTitle=styled.h3`
   font-size: 30px;
   margin-bottom: 10px;
   color: #424242;
+  white-space: nowrap;
 `
 
 export const CardDescription=styled.p`

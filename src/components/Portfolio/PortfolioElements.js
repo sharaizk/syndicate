@@ -29,4 +29,7 @@ export const OurWork = styled.h2`
 export const PortfolioUnderConstruction = styled(Lottie)`
     height: 52.68703898840885vh;
     width: 52.68703898840885vh;
+    @media screen and (max-width:480px){
+      width:100%;
+    }
 `
