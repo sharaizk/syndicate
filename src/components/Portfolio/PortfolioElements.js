@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import Lottie from 'react-lottie-player'
 export const PortfolioContainer=styled.div`
-    height: 84.29926238145416vh;
+    height: 100%;
     width: 100%;
     display: flex;
 

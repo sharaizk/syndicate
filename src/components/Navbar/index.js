@@ -46,11 +46,12 @@ const Navbar = ({toggle}) => {
             </NavItem>
             <NavItem scrollNav={scrollNav}>
               <NavLinks to="portfolio"
-              spy={true} smooth={'easeInOutCubic'} offset={-120} duration={500}>
+              spy={true} smooth={'easeInOutCubic'} offset={-200} duration={500}>
               Portfolio</NavLinks>
             </NavItem>
             <NavItem scrollNav={scrollNav}>
-              <NavLinks to="ourteam">Our Team</NavLinks>
+            <NavLinks to="ourteam"
+              spy={true} smooth={'easeInOutCubic'} offset={-325} duration={500}>Our Team</NavLinks>
             </NavItem>
             <NavItem scrollNav={scrollNav}>
               <NavLinks to="about"

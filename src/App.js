@@ -5,6 +5,7 @@ import Header from './components/Header'
 import LandSection from './components/LandSection.js';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
+import OurTeam from './components/Ourteam';
 function App() {
   return (
     <div className="App" >
@@ -12,6 +13,7 @@ function App() {
       <LandSection />
       <Services />
       <Portfolio />
+      <OurTeam />
     </div>
   );
 }

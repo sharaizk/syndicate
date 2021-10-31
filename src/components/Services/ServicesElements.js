@@ -39,13 +39,11 @@ export const OurServices = styled.h2`
 export const CardContainer = styled.div`
   margin-top: 20px;
   display: grid;
-  display: grid;
   height: 100%;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  
   place-items: center;
   @media screen and (max-width:1140px){
     grid-template-columns: repeat(2, 1fr);

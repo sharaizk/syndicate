@@ -46,11 +46,11 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             Portfolio
           </SidebarLink>
+          <SidebarLink to="ourteam" onClick={toggle} spy={true} smooth={'easeInOutCubic'} offset={-100} duration={500}>
+            Our Team
+          </SidebarLink>
           <SidebarLink to="about" onClick={toggle}>
             About
-          </SidebarLink>
-          <SidebarLink to="ourteam" onClick={toggle}>
-            Our Team
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
